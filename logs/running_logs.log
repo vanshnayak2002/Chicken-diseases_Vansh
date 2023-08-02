@@ -379,3 +379,13 @@ urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt fail
 [2023-08-02 21:54:37,095: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
 [2023-08-02 21:54:37,096: INFO: common: created directory at: artifacts]
 [2023-08-02 21:54:58,496: INFO: common: json file saved at: scores.json]
+[2023-08-02 23:44:58,238: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.29.13:80]
+[2023-08-02 23:44:58,239: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-08-02 23:45:44,698: INFO: _internal: 127.0.0.1 - - [02/Aug/2023 23:45:44] "GET / HTTP/1.1" 200 -]
+[2023-08-02 23:45:44,754: INFO: _internal: 127.0.0.1 - - [02/Aug/2023 23:45:44] "GET / HTTP/1.1" 200 -]
+[2023-08-02 23:46:07,722: INFO: _internal: 127.0.0.1 - - [02/Aug/2023 23:46:07] "POST /predict HTTP/1.1" 200 -]
+[2023-08-02 23:49:29,065: INFO: _internal: 127.0.0.1 - - [02/Aug/2023 23:49:29] "POST /predict HTTP/1.1" 200 -]
+[2023-08-03 00:17:57,761: INFO: _internal: 127.0.0.1 - - [03/Aug/2023 00:17:57] "GET /?app_id=T4PSEC&hid=9cb91461e2732c6726588cbbe4260183&ver=UNKNOWN&os=WIN060200 HTTP/1.1" 200 -]
