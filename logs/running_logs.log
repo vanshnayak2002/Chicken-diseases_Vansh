@@ -1,0 +1,343 @@
+[2023-07-29 13:58:32,001: INFO: main: Welcome to my custome log]
+[2023-07-29 13:59:28,834: INFO: main: Welcome to my custome log]
+[2023-08-01 13:39:58,447: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 13:40:49,231: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 13:40:49,238: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 13:41:58,538: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 13:41:58,544: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 13:43:01,704: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 13:43:01,705: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 13:43:02,258: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 13:43:02,261: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 13:43:02,749: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 13:43:02,751: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 13:43:03,268: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 13:43:03,270: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 13:49:10,200: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 13:49:10,207: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 13:53:17,937: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-01 13:53:17,941: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-01 13:57:29,841: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 13:57:29,848: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 13:57:29,851: INFO: common: created directory at: artifacts]
+[2023-08-01 13:57:29,854: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-01 14:01:38,033: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-01 14:01:38,035: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-01 14:01:38,038: INFO: common: created directory at: artifacts]
+[2023-08-01 14:01:38,040: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-01 14:05:33,964: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 14:05:33,969: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 14:05:33,971: INFO: common: created directory at: artifacts]
+[2023-08-01 14:05:33,972: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-01 14:08:38,961: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 14:08:38,961: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 14:08:38,961: INFO: common: created directory at: artifacts]
+[2023-08-01 14:08:38,961: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-01 14:13:18,470: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\config\config.yaml loaded successfully]
+[2023-08-01 14:13:18,472: INFO: common: yaml file: F:\Chicken_dieseses\Chicken-diseases_Vansh\params.yaml loaded successfully]
+[2023-08-01 14:13:18,473: INFO: common: created directory at: artifacts]
+[2023-08-01 14:13:18,474: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-01 14:36:06,667: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-08-01 14:36:06,667: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-01 14:36:06,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-01 14:36:06,667: INFO: common: created directory at: artifacts]
+[2023-08-01 14:36:06,667: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-01 14:36:49,231: ERROR: main: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>]
+Traceback (most recent call last):
+  File "C:\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Python311\Lib\http\client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1041, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 979, in send
+    self.connect()
+  File "C:\Python311\Lib\http\client.py", line 1451, in connect
+    super().connect()
+  File "C:\Python311\Lib\http\client.py", line 945, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "C:\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Chicken_dieseses\Chicken-diseases_Vansh\main.py", line 10, in <module>
+    data_ingestion.main()
+  File "f:\chicken_dieseses\chicken-diseases_vansh\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "f:\chicken_dieseses\chicken-diseases_vansh\src\cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[2023-08-01 14:41:48,436: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-08-01 14:41:48,439: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-01 14:41:48,443: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-01 14:41:48,444: INFO: common: created directory at: artifacts]
+[2023-08-01 14:41:48,445: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-01 14:42:31,129: ERROR: main: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>]
+Traceback (most recent call last):
+  File "C:\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Python311\Lib\http\client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1041, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 979, in send
+    self.connect()
+  File "C:\Python311\Lib\http\client.py", line 1451, in connect
+    super().connect()
+  File "C:\Python311\Lib\http\client.py", line 945, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "C:\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Chicken_dieseses\Chicken-diseases_Vansh\main.py", line 10, in <module>
+    data_ingestion.main()
+  File "f:\chicken_dieseses\chicken-diseases_vansh\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "f:\chicken_dieseses\chicken-diseases_vansh\src\cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[2023-08-01 14:43:07,401: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-08-01 14:43:07,413: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-01 14:43:07,413: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-01 14:43:07,414: INFO: common: created directory at: artifacts]
+[2023-08-01 14:43:07,415: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-01 14:43:49,688: ERROR: main: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>]
+Traceback (most recent call last):
+  File "C:\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Python311\Lib\http\client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1041, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 979, in send
+    self.connect()
+  File "C:\Python311\Lib\http\client.py", line 1451, in connect
+    super().connect()
+  File "C:\Python311\Lib\http\client.py", line 945, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "C:\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Chicken_dieseses\Chicken-diseases_Vansh\main.py", line 10, in <module>
+    data_ingestion.main()
+  File "f:\chicken_dieseses\chicken-diseases_vansh\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "f:\chicken_dieseses\chicken-diseases_vansh\src\cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[2023-08-02 17:11:16,779: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-08-02 17:11:16,791: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-02 17:11:16,799: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-02 17:11:16,799: INFO: common: created directory at: artifacts]
+[2023-08-02 17:11:16,799: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-02 17:11:59,516: ERROR: main: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>]
+Traceback (most recent call last):
+  File "C:\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Python311\Lib\http\client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1041, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 979, in send
+    self.connect()
+  File "C:\Python311\Lib\http\client.py", line 1451, in connect
+    super().connect()
+  File "C:\Python311\Lib\http\client.py", line 945, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "C:\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Chicken_dieseses\Chicken-diseases_Vansh\main.py", line 10, in <module>
+    data_ingestion.main()
+  File "f:\chicken_dieseses\chicken-diseases_vansh\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "f:\chicken_dieseses\chicken-diseases_vansh\src\cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
